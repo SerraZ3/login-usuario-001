@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use(cookieParser());
-app.use(session({ secret: "senha" }));
+app.use(session({ secret: "Eu amo cuscuz" }));
 
 // Configura pasta estática para acesso externo
 app.use(express.static(path.join(__dirname, "public")));
