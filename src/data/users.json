@@ -75,5 +75,16 @@
     "admin": false,
     "criadoEm": "2022-07-14T23:21:37.043Z",
     "modificadoEm": "2022-07-14T23:21:37.043Z"
+  },
+  {
+    "id": 8,
+    "nome": "Henrique",
+    "sobrenome": "Serra",
+    "apelido": "SerraZ",
+    "senha": "$2b$10$/RR5tEU41Hs6aQqzmFI7m.K2MTEOcLSEwsvpVi8Tbl0INhSSU9aTG",
+    "email": "henrique@email.com",
+    "admin": false,
+    "criadoEm": "2022-07-19T23:32:35.592Z",
+    "modificadoEm": "2022-07-19T23:32:35.592Z"
   }
 ]

@@ -2,6 +2,9 @@
 <%- include("./partials/header") %>
 <main class="form-container">
   <h1>Cadastro</h1>
+  <% if(locals.error){ %>
+    <h2 class="error-alert"><%= error.message %></h2>
+   <% } %>
   <form action="/register" method="post">
     <input type="text" name="nome" placeholder="Nome"/>
     <input type="text" name="sobrenome" placeholder="Sobrenome"/>
